@@ -287,9 +287,9 @@
                 </div>
                 <h1 class="text-5xl md:text-7xl font-bold mb-5 text-teal-400 text-center">Salsabila Anandita Putri</h1>
                 <div class="flex flex-col items-center mt-2">
-                    <span class="block text-xl md:text-2xl font-semibold text-teal-400">
+                    <span class="block text-xl md:text-2xl font-normal text-gray-300">
                         <span id="typewriter-text"></span><span id="typewriter-cursor"
-                            class="border-r-2 border-teal-400 ml-1">|</span>
+                            class="border-r-2 border-gray-400 ml-1">|</span>
                     </span>
                 </div>
 
@@ -536,8 +536,9 @@
                             </svg>
                         </div>
                         <div class="p-6">
-                             <h3 class="text-xl font-bold text-white mb-3">Lumen Musik App</h3>
-    <p class="text-gray-400 mb-4">API streaming musik yang dibuat dengan Laravel Lumen, mendukung fitur playlist, pencarian, dan autentikasi pengguna.</p>
+                            <h3 class="text-xl font-bold text-white mb-3">Lumen Musik App</h3>
+                            <p class="text-gray-400 mb-4">API streaming musik yang dibuat dengan Laravel Lumen,
+                                mendukung fitur playlist, pencarian, dan autentikasi pengguna.</p>
                             <div class="flex flex-wrap gap-2 mb-4">
                                 <span class="px-3 py-1 bg-pink-400/20 text-pink-400 rounded-full text-sm">Laravel
                                     Lumen</span>
@@ -581,8 +582,7 @@
                             <p class="text-gray-400 mb-4">Aplikasi cuaca real-time dengan API, menampilkan prakiraan
                                 cuaca, suhu, dan lokasi pengguna.</p>
                             <div class="flex flex-wrap gap-2 mb-4">
-                                <span
-                                    class="px-3 py-1 bg-cyan-400/20 text-cyan-400 rounded-full text-sm">ReactJs</span>
+                                <span class="px-3 py-1 bg-cyan-400/20 text-cyan-400 rounded-full text-sm">ReactJs</span>
                                 <span class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm">API</span>
                             </div>
                             <div class="flex space-x-4">
@@ -627,7 +627,8 @@
                             <p class="text-gray-400 mb-4">Aplikasi inventaris barang untuk pencatatan stok, mutasi, dan
                                 laporan barang masuk/keluar.</p>
                             <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="px-3 py-1 bg-green-400/20 text-green-400 rounded-full text-sm">ReactJs</span>
+                                <span
+                                    class="px-3 py-1 bg-green-400/20 text-green-400 rounded-full text-sm">ReactJs</span>
                                 <span class="px-3 py-1 bg-teal-400/20 text-teal-400 rounded-full text-sm">API</span>
                             </div>
                             <div class="flex space-x-4">
@@ -649,8 +650,7 @@
                                 keranjang, checkout, dan pembayaran online.</p>
                             <div class="flex flex-wrap gap-2 mb-4">
                                 <span class="px-3 py-1 bg-teal-400/20 text-teal-400 rounded-full text-sm">HTML</span>
-                                <span
-                                    class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm">CSS</span>
+                                <span class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm">CSS</span>
                             </div>
                             <div class="flex space-x-4">
                                 <!-- <a href="#" class="text-teal-400 hover:text-teal-300 transition-colors">Live Demo</a> -->
@@ -848,10 +848,10 @@
                 if (i > 0) {
                     typewriterText.textContent = text.slice(0, i - 1);
                     i--;
-                    setTimeout(typeLoop, 50);
+                    setTimeout(typeLoop, 70);
                 } else {
                     forward = true;
-                    setTimeout(typeLoop, 50);
+                    setTimeout(typeLoop, 70);
                 }
             }
         }
